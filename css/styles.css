@@ -17,6 +17,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
 }
+img {
+	display: block;
+}
 .btn:hover,
 .btn:focus {
   color: #2196f3;
