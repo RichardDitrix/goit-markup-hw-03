@@ -13,6 +13,13 @@
   --footer-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
 }
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
