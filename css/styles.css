@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -31,9 +32,6 @@ img {
 .btn:focus {
   color: #2196f3;
   cursor: pointer;
-}
-.list {
-  list-style: none;
 }
 .link {
   text-decoration: none;
