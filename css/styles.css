@@ -31,6 +31,9 @@ img {
 .link {
   text-decoration: none;
 }
+.link-current {
+	color:var(--accent-color);
+}
 /* Header */
 .web {
   font-family: Raleway;
