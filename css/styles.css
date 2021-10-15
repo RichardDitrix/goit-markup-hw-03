@@ -12,6 +12,7 @@
   --studio-color: #000000;
   --footer-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
+  --border-color:#ECECEC;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
@@ -39,6 +40,12 @@ img {
 .link-current {
 	color:var(--accent-color);
 }
+.container{
+	width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
 /* Header */
 .web {
   font-family: Raleway;
@@ -70,6 +77,35 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-text-color);
+}
+/* main header */
+.menu-list {
+	display: flex;
+	width: 295px;
+	justify-content: space-between;
+}
+.header-nav {
+	display: flex;
+}
+.container-header {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid  var(--border-color);
+}
+.header-logo {
+	margin-right: 95px;
+	margin-left: 215px;
+}
+/* header contacts */
+.header-connect {
+	display: flex;
+	margin-left: auto;
+	
+}
+.header-contacts{
+	display: flex;
+	width: 310px;
+	justify-content: space-between;
 }
 /* btn section */
 .hidden-section {
