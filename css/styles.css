@@ -51,6 +51,12 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+.btn-main:hover,
+.btn-main:focus {
+  color: var(--nav-text-color);
+  background-color: var(--link-color);
+  cursor: pointer;
+}
 
 /* Header */
 .web {
@@ -147,8 +153,10 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: var(--nav-text-color);
-  background-color: var(--accent-color);
+}
+.btn-style {
+  min-width: 200px;
+  min-height: 50px;
 }
 /* body section */
 .h3-text {
