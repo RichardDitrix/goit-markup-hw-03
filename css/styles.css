@@ -15,6 +15,7 @@
   --border-color: #ececec;
   --buttons-background-color: #f5f4fa;
   --section-background-color: #2f303a;
+  --btn-spec-color: #1127f3;
 }
 h1,
 h2,
@@ -57,6 +58,10 @@ img {
   color: var(--nav-text-color);
   background-color: var(--link-color);
   cursor: pointer;
+}
+.btn-services:hover,
+.btn-services:focus {
+  background-color: var(--btn-spec-color);
 }
 .btn-main {
   background-color: var(--buttons-background-color);
@@ -163,6 +168,8 @@ img {
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  background-color: var(--accent-color);
+  color: var(--nav-text-color);
 }
 
 /* body section */
@@ -206,6 +213,9 @@ img {
 .list-style-main:not(:last-child) {
   margin-right: 30px;
 }
+.duty-img:not(:last-child) {
+  margin-right: 30px;
+}
 .list-main {
   font-weight: 700;
   font-size: 14px;
@@ -222,6 +232,13 @@ img {
   color: var(--secondary-text-color);
   width: 270px;
 }
+.duty-team-style {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.duty-list {
+  display: flex;
+}
 .duty-team {
   font-weight: 700;
   font-size: 36px;
@@ -229,7 +246,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.names {
+.duty-team-list {
+  display: flex;
+}
+.duty-style-list:not(:nth-child()) .names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
