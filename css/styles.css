@@ -70,6 +70,9 @@ img {
 .section {
   padding: 94px 0px;
 }
+.padding-zeero {
+  padding: 0px;
+}
 /* Header */
 .web {
   font-family: Raleway;
