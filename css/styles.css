@@ -88,7 +88,6 @@ img {
 .header {
   padding: 25px 0px;
   border-bottom: 1px solid var(--border-color);
-  height: 80px;
 }
 .menu-list {
   display: flex;
@@ -116,7 +115,6 @@ img {
 .header-contacts {
   display: flex;
   width: 310px;
-  justify-content: space-between;
 }
 .header-contacts-list:not(:last-child) {
   margin-right: 50px;
@@ -213,7 +211,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--footer-color);
   background-color: var(--footer-background-color);
-  height: 250px;
 }
 .adress {
   font-size: 14px;
