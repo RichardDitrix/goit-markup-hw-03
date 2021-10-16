@@ -252,6 +252,10 @@ img {
 .duty-container {
   padding-left: 15px;
   padding-right: 15px;
+}
+.duty-container-bottom {
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: var(--img-background-color);
 }
 .duty-team-list {
