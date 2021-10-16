@@ -16,6 +16,7 @@
   --buttons-background-color: #f5f4fa;
   --section-background-color: #2f303a;
   --btn-spec-color: #1127f3;
+  --img-background-color: #f5f4fa;
 }
 h1,
 h2,
@@ -233,7 +234,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  width: 270px;
 }
 .duty-team-style {
   text-align: center;
@@ -249,21 +249,43 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.duty-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--img-background-color);
+}
 .duty-team-list {
   display: flex;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
-.duty-style-list:not(:nth-child()) .names {
+.duty-style-list {
+  flex-basis: calc((100% - 90px) / 4);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.duty-name {
+  padding: 30px 0px;
+  text-align: center;
+}
+.duty-names {
+  margin-bottom: 8px;
+}
 .work {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.duty-workd {
 }
 /* footer */
 .footer {
