@@ -13,6 +13,8 @@
   --footer-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
   --border-color: #ececec;
+  --buttons-background-color: #f5f4fa;
+  --section-background-color: #2f303a;
 }
 h1,
 h2,
@@ -48,7 +50,6 @@ img {
 }
 .container {
   width: 1200px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 .btn-main:hover,
@@ -57,7 +58,13 @@ img {
   background-color: var(--link-color);
   cursor: pointer;
 }
-
+.btn-main {
+  background-color: var(--buttons-background-color);
+  border-radius: 4px;
+}
+.section {
+  padding: 94px 0px;
+}
 /* Header */
 .web {
   font-family: Raleway;
@@ -153,11 +160,11 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
 }
-.btn-style {
-  min-width: 200px;
-  min-height: 50px;
-}
+
 /* body section */
 .h3-text {
   font-weight: 700;
@@ -177,7 +184,27 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--nav-text-color);
-  background-color: var(--footer-background-color);
+}
+.section-top {
+  flex-grow: 1;
+  background-color: var(--section-background-color);
+  text-align: center;
+  padding: 200px 252px 280px 252px;
+}
+.solution-style {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.top-list {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.top-list-section {
+  display: flex;
+}
+.list-style-main:not(:last-child) {
+  margin-right: 30px;
 }
 .list-main {
   font-weight: 700;
@@ -185,12 +212,15 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  width: 270px;
+  margin-bottom: 10px;
 }
 .p-main {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  width: 270px;
 }
 .duty-team {
   font-weight: 700;
