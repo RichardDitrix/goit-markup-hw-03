@@ -12,22 +12,28 @@
   --studio-color: #000000;
   --footer-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
-  --border-color:#ECECEC;
+  --border-color: #ececec;
 }
-h1, h2, h3, h4, h5, h6, p {
-	margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
 }
 img {
-	display: block;
+  display: block;
 }
 .btn:hover,
 .btn:focus {
@@ -38,12 +44,12 @@ img {
   text-decoration: none;
 }
 .link-current {
-	color:var(--accent-color);
+  color: var(--accent-color);
 }
-.container{
-	width: 1200px;
-	padding: 0 15px;
-	margin: 0 auto;
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -78,35 +84,44 @@ img {
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
-/* main header */
+/* flex header */
+.header {
+  padding: 25px 0px;
+  border-bottom: 1px solid var(--border-color);
+  height: 80px;
+}
 .menu-list {
-	display: flex;
-	width: 295px;
-	justify-content: space-between;
+  display: flex;
+  width: 295px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 .header-nav {
-	display: flex;
+  display: flex;
 }
 .container-header {
-	display: flex;
-	align-items: center;
-	border-bottom: 1px solid  var(--border-color);
+  display: flex;
+  align-items: center;
 }
 .header-logo {
-	margin-right: 95px;
-	margin-left: 215px;
+  margin-right: 95px;
+  margin-left: 215px;
 }
 /* header contacts */
 .header-connect {
-	display: flex;
-	margin-left: auto;
-	
+  display: flex;
+  margin-left: auto;
 }
-.header-contacts{
-	display: flex;
-	width: 310px;
-	justify-content: space-between;
+.header-contacts {
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
 }
+.header-contacts-list:not(:last-child) {
+  margin-right: 50px;
+}
+
 /* btn section */
 .hidden-section {
   position: absolute;
@@ -129,13 +144,13 @@ img {
   font-family: Roboto;
 }
 .btn-services {
-font-family: Roboto;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
-color:var(--nav-text-color);
-background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--nav-text-color);
+  background-color: var(--accent-color);
 }
 /* body section */
 .h3-text {
@@ -198,6 +213,7 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--footer-color);
   background-color: var(--footer-background-color);
+  height: 250px;
 }
 .adress {
   font-size: 14px;
@@ -207,9 +223,20 @@ background-color: var(--accent-color);
   font-style: normal;
 }
 .studio-footer {
-	font-family: Raleway;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-	letter-spacing: 0.03em;
-	color: var(--contacts-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--contacts-color);
+}
+/* footer flex */
+.footer-contacts {
+  padding: 60px 0px 60px 215px;
+}
+.footer-items:not(:first-child) {
+  padding-bottom: 10px;
+}
+.footer-items:first-child {
+  padding-bottom: 20px;
+}
