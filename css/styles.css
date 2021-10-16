@@ -50,6 +50,9 @@ img {
 .link-current {
   color: var(--accent-color);
 }
+.test {
+  padding: 6px 20px;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
