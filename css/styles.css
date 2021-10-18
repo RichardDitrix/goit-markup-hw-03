@@ -39,7 +39,6 @@ body {
 img {
   display: block;
 }
-
 .btn:hover,
 .btn:focus {
   color: #2196f3;
@@ -90,7 +89,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--web-color);
 }
-
 .studio {
   font-family: Raleway;
   font-weight: 700;
@@ -147,7 +145,6 @@ img {
 .header-contacts-list:not(:last-child) {
   margin-right: 50px;
 }
-
 /* btn section */
 .hidden-section {
   position: absolute;
@@ -183,7 +180,6 @@ img {
   display: block;
   margin: 0 auto;
 }
-
 /* body section */
 .portfolio-container {
   display: flex;
@@ -205,7 +201,6 @@ img {
 .portfolio-buttons-items:not(:last-child) {
   margin-right: 8px;
 }
-
 .portfolio-buttons {
   display: flex;
   flex-direction: row;
@@ -304,7 +299,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
 .duty-team-list {
   display: flex;
   margin-left: -30px;
@@ -316,7 +310,6 @@ img {
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
 }
-
 .names {
   font-weight: 500;
   font-size: 16px;
@@ -346,6 +339,9 @@ img {
   background-color: var(--footer-background-color);
   padding-bottom: 60px;
 }
+.webstudio {
+  padding-top: 60px;
+}
 .adress {
   font-size: 14px;
   line-height: 1.71;
@@ -362,13 +358,9 @@ img {
   color: var(--contacts-color);
 }
 /* footer flex */
-
 .footer-contacts {
   margin-top: 20px;
 }
 .footer-items:not(:last-child) {
   margin-bottom: 10px;
-}
-.webstudio {
-  padding-top: 60px;
 }
