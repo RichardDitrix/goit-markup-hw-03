@@ -180,7 +180,8 @@ img {
   border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--nav-text-color);
-  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /* body section */
@@ -218,16 +219,13 @@ img {
 .portfolio-style-list {
   margin-bottom: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  margin-left: 30px;
 }
-.portfolio-style-list:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-
 .portfolio-img-description {
-  margin: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .h3-text {
   font-weight: 700;
@@ -244,24 +242,21 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.section-top {
+.top-heero {
   background-color: var(--section-background-color);
   padding-top: 200px;
   padding-bottom: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .solution {
-  display: flex;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--nav-text-color);
-  margin-bottom: 30px;
   width: 696px;
+  margin: 0 auto;
   text-align: center;
+  margin-bottom: 30px;
 }
 .top-list {
   display: flex;
@@ -277,13 +272,16 @@ img {
 .duty-img:not(:last-child) {
   margin-right: 30px;
 }
+.list-style-main {
+  width: 270px;
+}
 .list-main {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  width: 270px;
+
   margin-bottom: 10px;
 }
 .p-main {
@@ -339,8 +337,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.duty-workd {
-}
 /* footer */
 .footer {
   font-size: 14px;
@@ -348,6 +344,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--footer-color);
   background-color: var(--footer-background-color);
+  padding-bottom: 60px;
 }
 .adress {
   font-size: 14px;
@@ -365,13 +362,13 @@ img {
   color: var(--contacts-color);
 }
 /* footer flex */
+
 .footer-contacts {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin-top: 20px;
 }
-.footer-items:not(:first-child) {
+.footer-items:not(:last-child) {
   margin-bottom: 10px;
 }
-.footer-items:first-child {
-  margin-bottom: 20px;
+.webstudio {
+  padding-top: 60px;
 }
