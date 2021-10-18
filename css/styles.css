@@ -17,6 +17,7 @@
   --section-background-color: #2f303a;
   --btn-spec-color: #1127f3;
   --img-background-color: #f5f4fa;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 h1,
 h2,
@@ -338,11 +339,10 @@ img {
   color: var(--footer-color);
   background-color: var(--footer-background-color);
   padding-bottom: 60px;
-}
-.webstudio {
   padding-top: 60px;
 }
 .adress {
+  display: block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -356,6 +356,12 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
+}
+.footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-link-color);
 }
 /* footer flex */
 .footer-contacts {
