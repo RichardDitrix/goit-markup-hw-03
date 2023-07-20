@@ -26,6 +26,15 @@ a {
 		color: currentColor;
 	}
 	/* components-style */
+.container {
+	display: flex;
+	max-width: 1158px;
+	max-height: auto;
+	margin: 0, auto;
+}
+.section {
+	padding: 120px, 0;
+}
 .btn {
 	background-color: var(--background-lite);
 	color: var(--primary-blue);
@@ -59,6 +68,7 @@ list-style: none;
 }
 
 /*	HEADER */
+
 .web {
 color: var(--primary-blue);
 font-family: "Raleway",sans-serif;
@@ -67,6 +77,8 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: flex;
+align-items: center;
 }
 
 	
