@@ -13,6 +13,31 @@
 --modal-background:#FCFCFC;
 }
 /* Base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
 body {
 	font-family: "Roboto", sans-serif;
 	color: var(--main-text);
@@ -25,11 +50,17 @@ a {
 		text-decoration: none;
 		color: currentColor;
 	}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 	/* components-style */
 .container {
 	display: flex;
 	max-width: 1158px;
 	max-height: auto;
+	padding: 0, 15px;
 	margin: 0, auto;
 }
 .section {
@@ -136,6 +167,9 @@ letter-spacing: 0.02em;
 .description {
 	background-color: var(--white-background);
 }
+.rules-list {
+	width: calc((100% - 3*24px)/4);
+}
 .description-main {
 color: var(--overlay-dark);
 font-size: 20px;
@@ -161,6 +195,16 @@ letter-spacing: 0.02em;
 	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
+}
+.products-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap:  24px;
+	
+}
+.product-items {
+	width: calc((100% - 2*24px)/3);
+	
 }
 .team {
 	background-color: var(--background-lite);
