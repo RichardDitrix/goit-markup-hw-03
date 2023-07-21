@@ -72,11 +72,11 @@ img {
 	display: flex;
 	max-width: 1128px;
 	max-height: auto;
-	padding: 0, 15px;
-	margin: 0, auto;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 .section {
-	padding: 120px, 0;
+	padding: 120px 0;
 }
 .btn {
 	background-color: var(--background-lite);
@@ -126,11 +126,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 display: flex;
 align-items: center;
-margin-left: 200px;
+margin-left: 156px;
 }
-
-	
-
 .web-studio {
 color: var(--overlay-dark);
 }
@@ -191,6 +188,8 @@ letter-spacing: 0.02em;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	cursor: pointer;
+	padding: 16px 32px;
+	border-radius: 4px;
 }
 .btn-heero:hover,
 .btn-heero:focus {
