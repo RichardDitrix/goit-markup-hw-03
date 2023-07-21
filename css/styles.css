@@ -114,7 +114,6 @@ list-style: none;
 .header-container {
 	display: flex;
 	align-items: center;
-	
 	max-height: 72px;
 }
 .web {
