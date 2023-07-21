@@ -114,7 +114,7 @@ list-style: none;
 .header-container {
 	display: flex;
 	align-items: center;
-	max-height: 72px;
+	padding: 24px 0px;
 }
 .web {
 color: var(--primary-blue);
