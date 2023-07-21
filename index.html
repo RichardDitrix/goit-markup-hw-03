@@ -13,16 +13,23 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@300;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
+      <div class="container header-container">
+        <nav class="header-navigation">
           <a class="link web" href="./index.html"
             >Web<span class="web-studio">Studio</span></a
           >
-          <ul class="list">
+          <ul class="header-navigation list">
             <li>
               <a href="./index.html" class="header-nav link">Studio</a>
             </li>
@@ -35,7 +42,7 @@
           </ul>
         </nav>
         <address class="adress">
-          <ul class="list">
+          <ul class="header-navigation list">
             <li>
               <a class="btn-adress link" href="mailto:info@devstudio.com"
                 >info@devstudio.com
@@ -59,7 +66,7 @@
       </section>
       <section class="description section">
         <div class="container">
-          <h2 hidden>Our Rules</h2>
+          <h2 class="visually-hidden">Our Rules</h2>
           <ul class="list">
             <li class="rules-list">
               <h3 class="description-main">Strategy</h3>
