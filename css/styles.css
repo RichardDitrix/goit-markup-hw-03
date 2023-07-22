@@ -106,9 +106,7 @@ justify-content: center;
 	border: 1px solid var(--accent-color);
 	
 }
-.portfolio-btn-list {
-	
-	
+
 }
 .btn:hover,
 .btn:focus {
@@ -137,6 +135,7 @@ list-style: none;
 .header-container {
 	display: flex;
 	align-items: center;
+	border-bottom: 1px solid var(--accent-color);
 }
 .web {
 color: var(--primary-blue);
@@ -149,6 +148,7 @@ text-transform: uppercase;
 display: flex;
 align-items: center;
 margin-left: auto;
+margin-right: 76px;
 }
 .web-studio {
 color: var(--overlay-dark);
@@ -156,6 +156,7 @@ color: var(--overlay-dark);
 .header-navigation {
 	display: flex;
 	gap: 76px;
+	align-items: center;
 }
 .header-navigation-list {
 	display: flex;
@@ -192,7 +193,7 @@ color: var(--overlay-dark);
 	font-weight: 700;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
-	width: 496px;
+	max-width: 496px;
 	height: 120px;
 	margin-top: 0;
 	margin-bottom: 48px;
@@ -213,6 +214,9 @@ color: var(--overlay-dark);
 	box-shadow: 0px 4px 4px 0px var(--btn-color);
 	display: block;
 	margin: 0 auto;
+	min-width: 169px;
+	height: 56px;
+	border: none;
 	
 }
 .btn-heero:hover,
@@ -283,9 +287,10 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	background-color: var(--white-background);
 	width: calc((100% - 3*24px)/4);
 	color: var(--box-shadow);
+	border-radius: 0px 0px 4px 4px;
 }
 .team-img {
-	margin-bottom: 32px;
+	
 }
 .team-our {
 	font-size: 36px;
@@ -295,6 +300,10 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	text-transform: capitalize;
 	color: var(--overlay-dark);
 	margin-bottom: 72px;
+}
+.container-team {
+	padding: 32px 0;
+
 }
 .team-names {
 	color: var(--hero-background);
@@ -311,7 +320,6 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-align: center;
-	padding-bottom: 32px;
 }
 /* Portfolio-body */
 .rules-description {
@@ -329,7 +337,6 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	margin-left: 16px;
-	padding-bottom: 32px;
 }
 .portfolio-img {
 	margin-bottom: 32px;
@@ -355,8 +362,7 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	padding-top: 140px;
-	padding-bottom: 100px;
+	padding: 100px 0;
 }
 .web-footer {
 color: var(--primary-blue);
@@ -365,8 +371,9 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
+display: inline-block;
 text-transform: uppercase;
-margin-bottom: 17.5px;
+margin-bottom: 16px;
 }
 .web-studio-footer {
 	color: var(--background-lite);
