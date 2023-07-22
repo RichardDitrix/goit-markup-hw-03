@@ -272,10 +272,7 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	gap:24px;
 	
 }
-/* .product-items {
-	width: calc((100% - 2*24px)/3);
-	
-} */
+
 .team {
 	background-color: var(--background-lite);
 }
@@ -289,9 +286,6 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	width: calc((100% - 3*24px)/4);
 	color: var(--box-shadow);
 	border-radius: 0px 0px 4px 4px;
-}
-.team-img {
-	
 }
 .team-our {
 	font-size: 36px;
