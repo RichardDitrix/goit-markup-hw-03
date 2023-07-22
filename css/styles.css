@@ -262,6 +262,9 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	width: calc((100% - 3*24px)/4);
 	color: var(--box-shadow);
 }
+.team-img {
+	margin-bottom: 32px;
+}
 .team-our {
 	font-size: 36px;
 	line-height: 1.11;
@@ -277,12 +280,16 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	font-weight: 500;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	text-align: center;
+	margin-bottom: 8px;
 }
 .team-professions {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	text-align: center;
+	padding-bottom: 32px;
 }
 /* Portfolio-body */
 .rules-description {
@@ -297,6 +304,18 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+}
+.portfolio-list{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 48px 24px;
+	
+}
+.portfolio-item-list {
+	background-color: var(--white-background);
+	width: calc(100% - 48)/3);
+	border: 1px solid var(--accent-color);
+		
 }
 /*	FOOTER */
 .footer {
