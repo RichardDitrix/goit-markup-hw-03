@@ -11,6 +11,7 @@
 --hero-background:#2E2F42;
 --white-background:#FFFFFF;
 --modal-background:#FCFCFC;
+--btn-color:rgba(0, 0, 0, 0.15);
 }
 /* Base styles */
 *,
@@ -69,9 +70,7 @@ img {
 		overflow: hidden;
 		}
 .container {
-	display: flex;
-	max-width: 1128px;
-	max-height: auto;
+	width: 1158px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -114,7 +113,6 @@ list-style: none;
 .header-container {
 	display: flex;
 	align-items: center;
-	padding: 24px 0px;
 }
 .web {
 color: var(--primary-blue);
@@ -126,7 +124,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 display: flex;
 align-items: center;
-margin-left: 156px;
+margin-left: auto;
 }
 .web-studio {
 color: var(--overlay-dark);
@@ -146,6 +144,8 @@ color: var(--overlay-dark);
 	margin-left: auto;
 }
 .header-nav {
+	display: block;
+	padding: 24px 0;
 	color:var(--overlay-dark);
 	font-size: 16px;
 	font-weight: 500;
@@ -156,20 +156,10 @@ color: var(--overlay-dark);
 .header-nav:focus {
 	color: var(--pressed-blue);
 }
-/* .adress {
-color: var(--main-text);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-} */
-/* .adress-navigation {
-	display: flex;
-	gap: 332px;
-} */
 /*	BODY */
 .heero {
 	background-color: var(--hero-background);
+	padding: 188px 0;
 }
 .heero-text {
 	color: var(--white-background);
@@ -178,6 +168,12 @@ letter-spacing: 0.02em;
 	font-weight: 700;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
+	width: 496px;
+	height: 120px;
+	margin-top: 0;
+	margin-bottom: 48px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .btn-heero {
 	background-color: var(--primary-blue);
@@ -190,6 +186,10 @@ letter-spacing: 0.02em;
 	cursor: pointer;
 	padding: 16px 32px;
 	border-radius: 4px;
+	box-shadow: 0px 4px 4px 0px var(--btn-color);
+	display: block;
+	margin: 0 auto;
+	
 }
 .btn-heero:hover,
 .btn-heero:focus {
@@ -218,7 +218,6 @@ letter-spacing: 0.02em;
 	font-weight: 700;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
-
 }
 .products {
 	font-size: 36px;
@@ -250,8 +249,6 @@ letter-spacing: 0.02em;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: var(--overlay-dark);
-
-
 }
 .team-names {
 	color: var(--hero-background);
