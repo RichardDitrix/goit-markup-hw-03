@@ -86,7 +86,8 @@ img {
 	display: flex;
 	gap: 24px;
 	flex-wrap: wrap;
-
+text-align: center;
+justify-content: center;
 	margin-bottom: 72px;
 	
 }
@@ -337,6 +338,8 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	display: flex;
 	flex-wrap: wrap;
 	gap: 48px 24px;
+	margin-left: -30px;
+	margin-right: -30px;
 	
 }
 .portfolio-item-list {
