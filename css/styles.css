@@ -158,10 +158,13 @@ color: var(--overlay-dark);
 	display: flex;
 	align-items: center;
 }
+.adress {
+	margin-left: auto;
+}
 .header-navigation-adress {
 	display: flex;
 	gap: 40px;
-	margin-left: 332px;
+	
 }
 .header-navigation-list {
 	display: flex;
@@ -195,7 +198,6 @@ color: var(--overlay-dark);
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	max-width: 496px;
-	height: 120px;
 	margin-top: 0;
 	margin-bottom: 48px;
 	margin-left: auto;
@@ -323,7 +325,6 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	font-weight: 500;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	margin-left: 16px;
 	margin-bottom: 8px;
 }
 .rules-work	{
@@ -331,7 +332,7 @@ text-shadow: 0px 4px 4px 0px var(--text-shadow);
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	margin-left: 16px;
+	
 }
 .portfolio-list{
 	display: flex;
@@ -384,5 +385,6 @@ margin-bottom: 16px;
 		font-weight: 400;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
+		max-width: 264px;
 		
 	}
